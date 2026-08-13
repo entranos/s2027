@@ -214,3 +214,4 @@ logs/
 .vercel
 .netlify
 
+/viewer/public/archive
