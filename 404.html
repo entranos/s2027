@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Verhuisd naar nbnl2027.entranos.nl</title>
-  <link rel="canonical" href="https://nbnl2027.entranos.nl/">
-  <meta http-equiv="refresh" content="0; url=https://nbnl2027.entranos.nl/">
   <script>
-    location.replace("https://nbnl2027.entranos.nl/" + location.search + location.hash);
+    var path = location.pathname.replace(/^\/s2027/, "");
+    location.replace("https://nbnl2027.entranos.nl" + (path || "/") + location.search + location.hash);
   </script>
 </head>
 <body>
